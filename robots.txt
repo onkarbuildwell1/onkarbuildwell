@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://onkarbuildwell1.github.io/onkarbuildwell/sitemap.xml
