@@ -134,5 +134,24 @@ footer {
     display: block;
     width: 100%;
     margin: 16px 0;
+  
+.brand-logo {
+  display: block;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: #ffffff;
+}
+
+.brand {
+  gap: 12px;
+}
+
+@media (max-width: 700px) {
+  .brand-logo {
+    width: 46px;
+    height: 46px;
   }
 }
+
