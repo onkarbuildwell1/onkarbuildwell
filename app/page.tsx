@@ -13,7 +13,6 @@ const products = [
 const primaryPhone = "+91 70878 13333";
 const primaryWhatsApp = "917087813333";
 const secondPhone = "+91 95427 90001";
-const secondWhatsApp = "919542790001";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -115,14 +114,8 @@ export default function Home() {
             <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
             <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
             <a href="#products" onClick={() => setMenuOpen(false)}>Concrete</a>
-            <a href="#enquiry" onClick={() => setMenuOpen(false)}>Get a Quote</a>
+            <a href="#enquiry" onClick={() => setMenuOpen(false)}>Contact</a>
             <a href="#careers" onClick={() => setMenuOpen(false)}>Careers</a>
-            <a className="nav-call" href="tel:+917087813333">
-              Onkar: +91 70878 13333
-            </a>
-            <a className="nav-call" href="tel:+919542790001">
-              Harman: +91 95427 90001
-            </a>
           </nav>
         </div>
       </header>
@@ -225,6 +218,7 @@ export default function Home() {
               </article>
             ))}
           </div>
+
           <p className="price-disclaimer">
             Prices are indicative and subject to confirmation. Concrete
             specifications should suit the project design.
@@ -412,6 +406,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
               <div className="contact-item">
                 <span className="contact-icon">☎</span>
                 <div>
