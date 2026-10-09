@@ -117,7 +117,12 @@ export default function Home() {
             <a href="#products" onClick={() => setMenuOpen(false)}>Concrete</a>
             <a href="#enquiry" onClick={() => setMenuOpen(false)}>Get a Quote</a>
             <a href="#careers" onClick={() => setMenuOpen(false)}>Careers</a>
-            <a className="nav-call" href="tel:+917087813333">Call Us</a>
+            <a className="nav-call" href="tel:+917087813333">
+              Onkar: +91 70878 13333
+            </a>
+            <a className="nav-call" href="tel:+919542790001">
+              Harman: +91 95427 90001
+            </a>
           </nav>
         </div>
       </header>
